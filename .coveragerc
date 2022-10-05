@@ -1,0 +1,10 @@
+[run]
+branch = True
+data_file = .coverage
+source =
+    app/
+[html]
+directory = htmlcov
+
+[report]
+fail_under = 76
